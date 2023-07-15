@@ -33,13 +33,13 @@ namespace Sakib
 using namespace Rakib;
 
 int main(){
-    // first checks if age1 or age2 are variable or not then it checks if it is under any namespace
-    
-    // if multiple namespaces have same variables or functions then it will give error
-    // Then it is better to only include using namespace for one namespace and the other is to access using :: 
-
     hello();
     cout << age << endl;
+    
+    // first checks if age is a variable or not then it checks if it is under any namespace
+
+    // if multiple namespaces have same variables or functions then it will give error
+    // Then it is better to only include using namespace for one namespace and the other is to access using :: 
     
     Sakib :: hello();
     cout << Sakib :: age << endl;

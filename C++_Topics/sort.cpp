@@ -13,8 +13,8 @@ int main(){
 
     // sorting ascending
     sort(arr, arr+n);
+
     //sort(first pointer, after last pointer)
-    
     // since this sort function works working from first argument till one before the second argument
 
     for (int i = 0; i < n; i++)

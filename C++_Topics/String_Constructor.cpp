@@ -12,6 +12,7 @@ int main(){
     
     // 3
     // string s("hello world", 4);
+    // cout << s << endl; 
     
     /* 
     
@@ -24,6 +25,7 @@ int main(){
     // 4
     // string a = "hello world";
     // string s(a, 4);
+    // cout << s << endl; 
 
     // 5
     string s(26, 'a');

@@ -13,7 +13,7 @@ String -> Dynamic Array
        cout << str;
     
     // str = "Gello"; (Cannot do it) 
-    // strcpy(str, "Gello") ( This can be done by the string doesn't occupies space so it is a bit weird to this way)
+    // strcpy(str, "Gello") ( This can be done but the string doesn't occupies space so it is a bit weird to this way)
     
     char temp[] = "Gello";
     strcpy(str, temp);
